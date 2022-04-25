@@ -79,8 +79,19 @@ export default {
     .content {
       flex: 4;
       max-width: 40em;
+      h2 {
+        @include max-width($md) {
+          font-size: 2.5em;
+        }
+        @include max-width($sm) {
+          font-size: 2em;
+        }
+      }
       p {
         text-align: justify;
+        @include max-width($sm) {
+          font-size: 0.9em;
+        }
       }
     }
   }
