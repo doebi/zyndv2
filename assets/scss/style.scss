@@ -4,6 +4,19 @@ $color-primary: rgba(154,55,248,1);
 $color-secondary: rgba(49,40,125,1);
 $color-tertiary: rgba(67,168,244,1);
 
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+@mixin max-width($value) {
+  @media (max-width: $value) {
+    @content;
+  }
+}
+
 @font-face {
   font-family: 'Harmonia';
   font-weight: normal;
@@ -29,6 +42,7 @@ body {
 }
 
 h2 {
+  margin-top: 0;
   font-weight: normal;
   font-size: 3em;
 }

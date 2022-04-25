@@ -42,9 +42,16 @@ header {
   .header-elements {
     @include page-item;
     padding: 2em 0.5em;
-
     display: flex;
     justify-content: flex-end;
+
+    @include max-width($md) {
+      padding: 1em 0.5em;
+    }
+    @include max-width($sm) {
+      padding: 0.5em 0.5em;
+    }
+
     > div {
       height: 3em;
     }
@@ -62,6 +69,10 @@ header {
       > a {
         display: flex;
         align-items: center;
+      }
+
+      @include max-width($sm) {
+        display: none;
       }
 
       &.animated {

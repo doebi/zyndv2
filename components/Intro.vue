@@ -45,6 +45,11 @@ export default {
     @include page-item;
     display: flex;
     justify-content: flex-end;
+    margin-top: 2em;
+
+    @include max-width($md) {
+      flex-direction: column;
+    }
 
     .sidebar {
       user-select: none;
@@ -57,10 +62,18 @@ export default {
       align-items: center;
       transform: translate(50%);
 
+      @include max-width($md) {
+        transform: translate(0);
+      }
+
       .sidebar-content {
         text-align: center;
         transform: translate(-50%) rotate(-90deg);
         white-space: nowrap;
+
+        @include max-width($md) {
+          transform: translate(0%) rotate(0deg);
+        }
       }
     }
     .content {

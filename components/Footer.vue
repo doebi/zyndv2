@@ -49,7 +49,7 @@ footer {
 
   .footer-elements {
     @include page-item;
-    padding: 2em 0.5em;
+    padding-top: 2em;
 
     display: flex;
     flex-direction: column;
@@ -57,7 +57,15 @@ footer {
     .footer-line {
       display: flex;
       flex-direction: row;
-      margin-bottom: 2em;
+
+      > * {
+        margin: 0 0 2em 0;
+      }
+
+      @include max-width($md) {
+        flex-direction: column;
+        align-items: center;
+      }
 
       .impressum-blocks {
         > div {
@@ -69,6 +77,11 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+
+        @include max-width($sm) {
+          flex-direction: column;
+          justify-content: space-between;
+        }
       }
 
       .logo {
