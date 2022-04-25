@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Döberl;Christoph;;;
+FN:Christoph Döberl
+ORG:zynd GmbH;
+EMAIL;type=INTERNET;type=WORK;type=pref:cd@zynd.at
+TEL;type=CELL;type=VOICE;type=pref:+43 676 7823454
+item1.ADR;type=HOME;type=pref:;;Hofgasse 22;Linz;;4020;Austria
+item1.X-ABADR:at
+URL;type=WORK;type=pref:https://zynd.at
+END:VCARD
