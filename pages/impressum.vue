@@ -1,0 +1,22 @@
+<template>
+  <div>
+    <Impressum />
+    <Datenschutz />
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {}
+  },
+
+  async asyncData({ params }) {
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+section {
+}
+</style>
