@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .intro {
   min-height: 30vh;
   margin-bottom: 7em;
