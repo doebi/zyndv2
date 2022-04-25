@@ -1,5 +1,6 @@
 <template>
   <div>
+    <About />
     <Highlight />
   </div>
 </template>

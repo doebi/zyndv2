@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Services />
     <Highlight />
   </div>
 </template>
