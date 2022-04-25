@@ -5,12 +5,10 @@ $color-secondary: rgba(49,40,125,1);
 $color-tertiary: rgba(67,168,244,1);
 
 @font-face {
-  font-family: 'Harmonia Regular';
+  font-family: 'Harmonia';
+  font-weight: normal;
   src: url('~assets/fonts/Harmonia-Regular.otf') format('opentype');
-}
-@font-face {
-  font-family: 'Harmonia Bold';
-  src: url('~assets/fonts/Harmonia-Bold.otf') format('opentype');
+  font-display: swap;
 }
 
 ::selection {
@@ -23,16 +21,11 @@ body {
   line-height: 1.5;
   font-size: 1.2em;
 
-  font-family: "Harmonia Regular";
+  font-family: "Harmonia";
   padding: 0;
 
   color: $color-dark;
   background-color: $color-light;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Harmonia Regular";
-  color: $color-dark;
 }
 
 h2 {
