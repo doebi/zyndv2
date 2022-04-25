@@ -1,6 +1,8 @@
 <template>
   <div>
-  <Highlight />
+    <Intro />
+    <Highlight />
+    <Intro />
   </div>
 </template>
 

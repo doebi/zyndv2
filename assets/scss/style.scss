@@ -23,7 +23,7 @@ body {
   line-height: 1.5;
   font-size: 1.2em;
 
-  font-family: serif;
+  font-family: "Harmonia Regular";
   padding: 0;
 
   color: $color-dark;
@@ -31,6 +31,17 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Harmonia";
+  font-family: "Harmonia Regular";
   color: $color-dark;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 3em;
+}
+
+@mixin page-item {
+  max-width: 75em;
+  margin: auto;
+  padding: 0 0.5em;
 }
