@@ -1,0 +1,36 @@
+$color-light: rgba(240, 237, 244, 1);
+$color-dark: rgba(48, 48, 64, 1);
+$color-primary: rgba(154,55,248,1);
+$color-secondary: rgba(49,40,125,1);
+$color-tertiary: rgba(67,168,244,1);
+
+@font-face {
+  font-family: 'Harmonia Regular';
+  src: url('~assets/fonts/Harmonia-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Harmonia Bold';
+  src: url('~assets/fonts/Harmonia-Bold.otf') format('opentype');
+}
+
+::selection {
+  color: $color-light;
+  background: $color-primary;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1.2em;
+
+  font-family: serif;
+  padding: 0;
+
+  color: $color-dark;
+  background-color: $color-light;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Harmonia";
+  color: $color-dark;
+}
