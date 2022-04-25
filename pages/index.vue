@@ -2,7 +2,6 @@
   <div>
     <Intro />
     <Highlight />
-    <Intro />
   </div>
 </template>
 

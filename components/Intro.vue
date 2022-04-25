@@ -44,7 +44,7 @@ export default {
   .content-wrapper {
     @include page-item;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 
     .sidebar {
       user-select: none;
