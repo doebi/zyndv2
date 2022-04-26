@@ -15,6 +15,6 @@ export default {
   background-size: 600% 600%;
   animation: pulse 30s ease-in-out infinite;
   /*background: linear-gradient(120deg, $color-primary, $color-secondary, $color-tertiary);*/
-  background: linear-gradient(-120deg, $color-primary, darken($color-primary, 20%));
+  background: linear-gradient(-120deg, lighten($color-primary, 5%), darken($color-primary, 20%));
 }
 </style>

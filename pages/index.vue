@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Content subline="Digitization: The good, the bad, the ugly.">
+    <Content subline="Digitization: The good, the bad and the ugly.">
       <h2>Welcome to a new world of digital solutions and technology.</h2>
       <h4>Strategy & Business Innovation for your Company</h4>
       <p>Vel numquam molestiae necessitatibus dolorem molestiae nulla atque. Tempore et
