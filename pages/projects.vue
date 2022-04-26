@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Projects />
+    <Content subline="What we do">
+      <h2>Projects</h2>
+    </Content>
     <Highlight />
   </div>
 </template>
