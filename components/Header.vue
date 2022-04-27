@@ -2,15 +2,18 @@
   <header>
     <div class="header-elements">
       <div class="menu">
-        <div class="menu-entry">
+        <div class="menu-item">bringing ideas to life</div>
+        <!--
+        <div class="menu-item">
           <NuxtLink to="/about">About Us</NuxtLink>
         </div>
-        <div class="menu-entry">
+        <div class="menu-item">
           <NuxtLink to="/services">Services</NuxtLink>
         </div>
-        <div class="menu-entry">
+        <div class="menu-item">
           <NuxtLink to="/projects">Projects</NuxtLink>
         </div>
+        -->
       </div>
       <div class="logo-pictogram">
         <NuxtLink to="/">
@@ -98,16 +101,17 @@ header {
       flex: 1;
       display: flex;
 
-      .menu-entry {
+      .menu-item {
         display: flex;
         flex-direction: column;
         justify-content: center;
         white-space: nowrap;
+        color: $color-dark;
 
         margin-right: 1em;
-        cursor: pointer;
 
         a {
+          cursor: pointer;
           transition: color 0.1s;
           color: $color-dark;
           text-decoration: none;

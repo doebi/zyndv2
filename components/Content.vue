@@ -80,6 +80,10 @@ export default {
         @include max-width($sm) {
           font-size: 0.9em;
         }
+
+        &.lead {
+          font-size: 1.2em;
+        }
       }
     }
   }
